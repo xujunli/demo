@@ -1,0 +1,267 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+	margin: 0;
+	padding: 0;
+}
+html {
+	font-size: 62.5%;
+}
+/*媒体查询样式*/
+@media only screen and (max-width:321px){
+html {
+	font-size:27.7%!important;
+}
+}
+/*@media only screen and (max-width:376px){
+html {
+	font-size:32.5%!important;
+}
+}
+@media only screen and (max-width:426px){
+html {
+	font-size:36.9%!important;
+}
+}*/
+
+body {
+	position: relative;
+	width: 100%;
+}
+/*header部分样式*/
+.head {
+	position: fixed;
+	top: 0;
+	z-index: 1;
+	height: 8.8rem;
+	width: 100%;
+	text-align: center;
+	background-color: #5fc0cd;
+}
+.head a {
+	height: 4.4rem;
+	display: block;
+	margin: auto;
+	position: absolute;
+	top: 0;right: auto;bottom: 0;left: 3.5rem;
+	font: 3.6rem SimSun;
+	color: #f8f8f8;
+	text-decoration: none;
+}
+.head p {
+	height: 8.8rem;
+	font: 3.6rem/8.8rem SimHei;
+	color: #ffffff;
+}
+/*main部分样式*/
+.main {
+	width: 100%;
+	margin: 8.8rem 0 40rem 0;
+}
+.main-head {
+	position: relative;
+	height: 32.6rem;
+	width: 100%;
+	overflow: hidden;
+	background: url('../img/test5/task5-1_06.png') no-repeat;
+	background-size: cover;
+	-moz-background-size: cover;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/test5/task5-1_06.png', sizingMethod='scale');
+}
+.main-head img {
+	margin: auto;
+	position: absolute;
+	top: 0;right: auto;bottom: 0;left: 3rem;
+	max-height: 16.8rem;
+	max-width: 16.8rem;
+	border-radius: 50%;
+	/*兼容低版本chrome*/
+	-webkit-border-radius: 50%;
+	/*兼容低版本firfox*/
+	-moz-border-radius: 50%;
+	
+}
+.head-info {
+	margin: auto;
+	position: absolute;
+	top: 0;right: auto;bottom: 0;left: 24rem;
+	height: 8rem;
+	width: 28rem;
+}
+.head-info > p {
+	font-size: 3.6rem;
+	color: #ffffff;
+	margin-bottom: 2.5rem;
+}
+.info-add {
+	background: url('../img/test5/task5-1_01.png') no-repeat left;
+	background-size: 1.8rem 2.3rem;
+	-moz-background-size: 1.8rem 2.3rem;
+    -ms-background-size: 1.8rem 2.3rem;
+    -o-background-size: 1.8rem 2.3rem;
+    -webkit-background-size: 1.8rem 2.3rem;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/test5/task5-1_01.png', sizingMethod='scale');
+}
+.info-add p {
+	margin-left: 3.3rem;
+	font-size: 3.2rem;
+	color: #ffffff;
+}
+.main-list p {
+	display: inline;
+}
+.list-head {
+	height: 10rem;
+	line-height: 10rem;
+	border-bottom: 0.2rem solid #e1e5e7;
+}
+.list-head p {
+	margin-left: 2.8rem;
+	padding-left: 2.8rem;
+	border-left: 0.2rem solid #5fc0cd;
+	font-size: 3.2rem;
+	color: #333333;
+	vertical-align: middle;
+}
+.list-one {
+	height: 10rem;
+	line-height: 10rem;
+	
+}
+.list-one p {
+	padding-left: 3.2rem;
+	margin-left: 6rem;
+	background: url('../img/test5/task5-1_14.png') no-repeat left;
+	background-size: 2.2rem 2.2rem;
+	-moz-background-size: 2.2rem 2.2rem;
+    -ms-background-size: 2.2rem 2.2rem;
+    -o-background-size: 2.2rem 2.2rem;
+    -webkit-background-size: 2.2rem 2.2rem;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/test5/task5-1_14.png', sizingMethod='scale');
+	font-size: 3.2rem;
+	color: #333333;
+	vertical-align: middle;
+}
+.list-one span {
+	padding-left: 5.3rem;
+	margin-left: 2.1rem;
+	background: url('../img/test5/task5-1_14.png') no-repeat 2.1rem;
+	background-size: 2.2rem 2.2rem;
+	-moz-background-size: 2.2rem 2.2rem;
+    -ms-background-size: 2.2rem 2.2rem;
+    -o-background-size: 2.2rem 2.2rem;
+    -webkit-background-size: 2.2rem 2.2rem;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader( src='../img/test5/task5-1_14.png', sizingMethod='scale');
+	border-left: 0.1rem solid #e1e5e7;
+	font-size: 3.2rem;
+	color: #333333;
+	vertical-align: middle;
+}
+.list-twe {
+	height: 10rem;
+	line-height: 10rem;
+	margin-left: 3.2rem;
+	border-top: 0.2rem solid #e1e5e7;
+}
+.list-twe p {
+	margin-left: 6rem;
+	font-size: 3.2rem;
+	color: #a8a8a8;
+	vertical-align: middle;
+}
+.list-twe span {
+	margin-left: 2.7rem;
+	padding-left: 2.7rem;
+	border-left: 0.1rem solid #e1e5e7;
+	font-size: 3.2rem;
+	color: #333333;
+	vertical-align: middle;
+}
+.list-tre {
+	height: 10rem;
+	line-height: 10rem;
+	margin-left: 3.2rem;
+	border-top: 0.2rem solid #e1e5e7;
+	border-bottom: 0.2rem solid #e1e5e7;
+}
+.list-tre p {
+	margin-left: 6rem;
+	font-size: 3.2rem;
+	color: #a8a8a8;
+	vertical-align: middle;
+}
+.list-tre span {
+	margin-left: 2.7rem;
+	padding-left: 2.7rem;
+	border-left: 0.1rem solid #e1e5e7;
+	font-size: 3.2rem;
+	color: #e26163;
+	vertical-align: middle;
+}
+.list-fou {
+	position: relative;
+	min-height:10rem;
+	border-bottom: 0.2rem solid #e1e5e7;
+}
+.list-fou p {
+	display: block;
+	position: absolute;
+	top: 50%;
+	margin-top: -1.8rem;
+	margin-left: 9.4rem;
+	padding-right: 2.7rem;
+	height: 3.6rem;
+	font-size: 3.2rem;
+	border-right: 0.1rem solid #e1e5e7;
+	color: #a8a8a8;
+}
+.list-fou div {
+	padding: 1rem 0;
+	height: 100%;
+	margin-left: 25.5rem;
+	font-size: 3.2rem;
+	color: #333333;
+}
+/*foot部分样式*/
+.foot {
+	/*margin: 0 3.8rem;
+	position: fixed;
+	left: 3.8rem;
+	bottom: 3.8rem;*/
+	display: flex;
+	display: -webkit-flex;
+	justify-content: space-around;
+	align-items: center;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	height: 8.8rem;
+}
+.foot-one {
+	margin: 2rem 1rem 2rem 2rem;
+	text-align: center;
+	border: 0.1rem solid #5fc0cd;
+	border-radius: 1rem;
+	height: 8.8rem;
+	line-height: 8.8rem;
+	flex: 1 1 5rem;
+	background-color: #ffffff;
+	font-size: 3.2rem;
+	color: #5fc0cd;
+}
+.foot-twe {
+	margin: 2rem 2rem 2rem 1rem;
+	text-align: center;
+	border: 0.1rem solid #5fc0cd;
+	border-radius: 1rem;
+	height: 8.8rem;
+	line-height: 8.8rem;
+	flex: 1 1 5rem;
+	background-color: #5fc0cd;
+	font-size: 3.2rem;
+	color: #ffffff;
+}
